@@ -18,12 +18,4 @@ export default defineMessages({
     id: 'boilerplate.containers.HomePage.tryme.header',
     defaultMessage: 'Try me!',
   },
-  trymeMessage: {
-    id: 'boilerplate.containers.HomePage.tryme.message',
-    defaultMessage: 'Show Github repositories by',
-  },
-  trymeAtPrefix: {
-    id: 'boilerplate.containers.HomePage.tryme.atPrefix',
-    defaultMessage: '@',
-  },
 });

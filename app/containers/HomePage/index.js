@@ -17,7 +17,6 @@ import injectSaga from 'utils/injectSaga';
 import { makeSelectRepos, makeSelectLoading, makeSelectError } from 'containers/App/selectors';
 import H2 from 'components/H2';
 import ReposList from 'components/ReposList';
-import AtPrefix from './AtPrefix';
 import CenteredSection from './CenteredSection';
 import Form from './Form';
 import Input from './Input';
@@ -68,10 +67,6 @@ export class HomePage extends React.PureComponent { // eslint-disable-line react
             </H2>
             <Form onSubmit={this.props.onSubmitForm}>
               <label htmlFor="username">
-                <FormattedMessage {...messages.trymeMessage} />
-                <AtPrefix>
-                  <FormattedMessage {...messages.trymeAtPrefix} />
-                </AtPrefix>
                 <Input
                   id="username"
                   type="text"
